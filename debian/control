@@ -1,0 +1,12 @@
+Source: ros-hydro-joint-trajectory-action-tools
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-joint-trajectory-action, ros-hydro-pr2-controllers-msgs, ros-hydro-roslib, ros-hydro-rospy, ros-hydro-trajectory-msgs
+Homepage: http://ros.org/wiki/joint_trajectory_action_tools
+Standards-Version: 3.9.2
+
+Package: ros-hydro-joint-trajectory-action-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-joint-trajectory-action, ros-hydro-pr2-controllers-msgs, ros-hydro-roslib, ros-hydro-rospy, ros-hydro-trajectory-msgs
+Description: joint_trajectory_action_tools

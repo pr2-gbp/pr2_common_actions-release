@@ -1,0 +1,12 @@
+Source: ros-hydro-joint-trajectory-generator
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-angles, ros-hydro-catkin, ros-hydro-joint-trajectory-action, ros-hydro-orocos-kdl, ros-hydro-roscpp, ros-hydro-urdf
+Homepage: http://ros.org/wiki/joint_trajectory_generator
+Standards-Version: 3.9.2
+
+Package: ros-hydro-joint-trajectory-generator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-angles, ros-hydro-joint-trajectory-action, ros-hydro-orocos-kdl, ros-hydro-roscpp, ros-hydro-urdf
+Description: joint_trajectory_generator action takes in a trajectory specified by a number of joint positions, and it generates a new smooth trajectory through these joint positions.

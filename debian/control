@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-common-action-msgs
+Section: misc
+Priority: extra
+Maintainer: Laura Lindzey <lindzey@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-sensor-msgs
+Homepage: http://wiki.ros.org/pr2_common_action_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-common-action-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-msgs, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-sensor-msgs
+Description: The pr2_common_action_msgs package

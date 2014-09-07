@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-common-actions
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://wiki.ros.org/pr2_common_actions
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-common-actions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-joint-trajectory-action-tools, ros-hydro-joint-trajectory-generator, ros-hydro-pr2-arm-move-ik, ros-hydro-pr2-common-action-msgs, ros-hydro-pr2-tilt-laser-interface, ros-hydro-pr2-tuck-arms-action
+Description: Various actions which help in moving the arms of the PR2 or getting data from its tilting laser.

@@ -1,0 +1,8 @@
+ros-hydro-pr2-tuck-arms-action (0.0.3-0precise) precise; urgency=high
+
+  * Added install exports
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Sat, 06 Sep 2014 04:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-indigo-joint-trajectory-generator
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-angles, ros-indigo-catkin, ros-indigo-joint-trajectory-action, ros-indigo-orocos-kdl, ros-indigo-roscpp, ros-indigo-urdf
+Homepage: http://ros.org/wiki/joint_trajectory_generator
+Standards-Version: 3.9.2
+
+Package: ros-indigo-joint-trajectory-generator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-angles, ros-indigo-joint-trajectory-action, ros-indigo-orocos-kdl, ros-indigo-roscpp, ros-indigo-urdf
+Description: joint_trajectory_generator action takes in a trajectory specified by a number of joint positions, and it generates a new smooth trajectory through these joint positions.

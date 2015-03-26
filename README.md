@@ -1,3 +1,31 @@
+## pr2_common_actions (indigo) - 0.0.5-2
+
+The packages in the `pr2_common_actions` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo pr2_common_actions` on `Thu, 26 Mar 2015 14:52:49 -0000`
+
+These packages were released:
+- `joint_trajectory_action_tools`
+- `joint_trajectory_generator`
+- `pr2_arm_move_ik`
+- `pr2_common_action_msgs`
+- `pr2_common_actions`
+- `pr2_tilt_laser_interface`
+- `pr2_tuck_arms_action`
+
+Version of package(s) in repository `pr2_common_actions`:
+- upstream repository: https://github.com/PR2/pr2_common_actions.git
+- release repository: https://github.com/pr2-gbp/pr2_common_actions-release.git
+- rosdistro version: `0.0.5-1`
+- old version: `0.0.5-1`
+- new version: `0.0.5-2`
+
+Versions of tools used:
+- bloom version: `0.5.18`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## pr2_common_actions (indigo) - 0.0.5-1
 
 The packages in the `pr2_common_actions` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo pr2_common_actions` on `Tue, 10 Feb 2015 16:32:28 -0000`

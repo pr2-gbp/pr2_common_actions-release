@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-arm-move-ik
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-pr2-common-action-msgs, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-urdf
+Homepage: http://ros.org/wiki/pr2_arm_move_ik
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-arm-move-ik
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-geometry-msgs, ros-kinetic-pr2-common-action-msgs, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-urdf
+Description: Move the pr2 arm using inverse kinematics

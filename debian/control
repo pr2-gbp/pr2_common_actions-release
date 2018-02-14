@@ -1,0 +1,13 @@
+Source: ros-kinetic-pr2-tilt-laser-interface
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-laser-geometry, ros-kinetic-message-generation, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-pr2-msgs, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: http://ros.org/wiki/pr2_tilt_laser
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-tilt-laser-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-laser-geometry, ros-kinetic-message-runtime, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-pr2-msgs, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: Provides a set of tools/actions for manipulating the pr2's tilting laser.
+ Simplifies previously complex tasks, such as fetching a single sweep, given a set of desired parameters for both the laser driver and tilting platform.

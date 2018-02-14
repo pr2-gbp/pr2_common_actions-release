@@ -1,0 +1,12 @@
+Source: ros-kinetic-joint-trajectory-generator
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-joint-trajectory-action, ros-kinetic-orocos-kdl, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp, ros-kinetic-urdf
+Homepage: http://ros.org/wiki/joint_trajectory_generator
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-joint-trajectory-generator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-angles, ros-kinetic-joint-trajectory-action, ros-kinetic-orocos-kdl, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp, ros-kinetic-urdf
+Description: joint_trajectory_generator action takes in a trajectory specified by a number of joint positions, and it generates a new smooth trajectory through these joint positions.

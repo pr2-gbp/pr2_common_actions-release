@@ -1,13 +1,12 @@
 <package>
   <name>pr2_common_actions</name>
-  <version>0.0.5</version>
+  <version>0.0.10</version>
   <description>
     Various actions which help in moving the arms of the PR2
     or getting data from its tilting laser.
   </description>
 
-  <maintainer email="ahendrix@willowgarage.com">Austin Hendrix</maintainer>
-  <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
+  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
 
   <author>Eitan Marder-Eppstein</author>
   <author>Wim Meeusen</author>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package>
   <name>pr2_tuck_arms_action</name>
-  <version>0.0.5</version>
+  <version>0.0.10</version>
   <description>The pr2_tuck_arms_action package</description>
 
- <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
+  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
   <license>BSD</license>
 
   <url type="website">http://wiki.ros.org/pr2_tuck_arms_action</url>

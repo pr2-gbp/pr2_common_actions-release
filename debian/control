@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-tuck-arms-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-pr2-common-action-msgs, ros-kinetic-pr2-controllers-msgs, ros-kinetic-rospy, ros-kinetic-trajectory-msgs
+Homepage: http://wiki.ros.org/pr2_tuck_arms_action
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-tuck-arms-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-pr2-common-action-msgs, ros-kinetic-pr2-controllers-msgs, ros-kinetic-rospy, ros-kinetic-trajectory-msgs
+Description: The pr2_tuck_arms_action package

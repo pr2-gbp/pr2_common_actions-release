@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-common-action-msgs
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-sensor-msgs
+Homepage: http://wiki.ros.org/pr2_common_action_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-common-action-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib-msgs, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-sensor-msgs
+Description: The pr2_common_action_msgs package

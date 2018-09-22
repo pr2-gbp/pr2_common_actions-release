@@ -1,0 +1,12 @@
+Source: ros-lunar-joint-trajectory-generator
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib, ros-lunar-angles, ros-lunar-catkin, ros-lunar-joint-trajectory-action, ros-lunar-orocos-kdl, ros-lunar-pr2-controllers-msgs, ros-lunar-roscpp, ros-lunar-urdf
+Homepage: http://ros.org/wiki/joint_trajectory_generator
+Standards-Version: 3.9.2
+
+Package: ros-lunar-joint-trajectory-generator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-angles, ros-lunar-joint-trajectory-action, ros-lunar-orocos-kdl, ros-lunar-pr2-controllers-msgs, ros-lunar-roscpp, ros-lunar-urdf
+Description: joint_trajectory_generator action takes in a trajectory specified by a number of joint positions, and it generates a new smooth trajectory through these joint positions.

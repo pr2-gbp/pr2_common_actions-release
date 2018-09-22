@@ -2,6 +2,9 @@
 Changelog for package pr2_arm_move_ik
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.11 (2018-09-22)
+-------------------
+
 0.0.10 (2018-02-14)
 -------------------
 * Merge pull request `#36 <https://github.com/pr2/pr2_common_actions/issues/36>`_ from k-okada/kinetic-devel

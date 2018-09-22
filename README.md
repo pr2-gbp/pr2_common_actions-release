@@ -1,3 +1,33 @@
+## pr2_common_actions (melodic) - 0.0.11-0
+
+The packages in the `pr2_common_actions` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --edit -y pr2_common_actions --rosdistro melodic --track melodic` on `Sat, 22 Sep 2018 02:53:30 -0000`
+
+These packages were released:
+- `joint_trajectory_action_tools`
+- `joint_trajectory_generator`
+- `pr2_arm_move_ik`
+- `pr2_common_action_msgs`
+- `pr2_common_actions`
+- `pr2_tilt_laser_interface`
+- `pr2_tuck_arms_action`
+
+Version of package(s) in repository `pr2_common_actions`:
+
+- upstream repository: https://github.com/PR2/pr2_common_actions.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.11-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## pr2_common_actions (lunar) - 0.0.11-0
 
 The packages in the `pr2_common_actions` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --edit -y pr2_common_actions --rosdistro lunar --track lunar` on `Sat, 22 Sep 2018 02:44:22 -0000`

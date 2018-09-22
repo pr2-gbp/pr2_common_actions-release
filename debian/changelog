@@ -1,0 +1,53 @@
+ros-melodic-joint-trajectory-generator (0.0.11-0bionic) bionic; urgency=high
+
+  * Merge pull request #38 <https://github.com/pr2/pr2_common_actions/issues/38> from k-okada/add_travis
+    update travis.yml
+  * fix for urdfdom versoin > 1.0.0 (melodic)
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 22 Sep 2018 00:00:00 -0000
+
+ros-melodic-joint-trajectory-generator (0.0.10-0bionic) bionic; urgency=high
+
+  * Merge pull request #37 <https://github.com/pr2/pr2_common_actions/issues/37> from k-okada/add_pr2_msgs
+    add depend to pr2_controller_msgs
+  * Merge pull request #36 <https://github.com/pr2/pr2_common_actions/issues/36> from k-okada/kinetic-devel
+    change maintainer to ROS orphaned package maintainer
+  * change maintainer to ROS orphaned package maintainer
+  * add depend to pr2_controller_msgs
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Wed, 14 Feb 2018 00:00:00 -0000
+
+ros-melodic-joint-trajectory-generator (0.0.7-0bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Thu, 26 Mar 2015 00:00:00 -0000
+
+ros-melodic-joint-trajectory-generator (0.0.6-0bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 10 Feb 2015 00:00:00 -0000
+
+ros-melodic-joint-trajectory-generator (0.0.5-0bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Fri, 06 Feb 2015 00:00:00 -0000
+
+ros-melodic-joint-trajectory-generator (0.0.4-0bionic) bionic; urgency=high
+
+  * Updated maintainership
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 17 Nov 2014 00:00:00 -0000
+
+ros-melodic-joint-trajectory-generator (0.0.3-0bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 06 Sep 2014 00:00:00 -0000
+
+

@@ -1,0 +1,13 @@
+Source: ros-lunar-pr2-tilt-laser-interface
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-lunar-actionlib, ros-lunar-actionlib-msgs, ros-lunar-catkin, ros-lunar-laser-geometry, ros-lunar-message-generation, ros-lunar-pcl-conversions, ros-lunar-pcl-ros, ros-lunar-pr2-msgs, ros-lunar-roscpp, ros-lunar-sensor-msgs
+Homepage: http://ros.org/wiki/pr2_tilt_laser
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-tilt-laser-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-lunar-actionlib, ros-lunar-actionlib-msgs, ros-lunar-laser-geometry, ros-lunar-message-runtime, ros-lunar-pcl-conversions, ros-lunar-pcl-ros, ros-lunar-pr2-msgs, ros-lunar-roscpp, ros-lunar-sensor-msgs
+Description: Provides a set of tools/actions for manipulating the pr2's tilting laser.
+ Simplifies previously complex tasks, such as fetching a single sweep, given a set of desired parameters for both the laser driver and tilting platform.

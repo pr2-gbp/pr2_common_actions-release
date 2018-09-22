@@ -1,0 +1,12 @@
+Source: ros-lunar-pr2-tuck-arms-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib, ros-lunar-actionlib-msgs, ros-lunar-catkin, ros-lunar-pr2-common-action-msgs, ros-lunar-pr2-controllers-msgs, ros-lunar-rospy, ros-lunar-trajectory-msgs
+Homepage: http://wiki.ros.org/pr2_tuck_arms_action
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-tuck-arms-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-actionlib-msgs, ros-lunar-pr2-common-action-msgs, ros-lunar-pr2-controllers-msgs, ros-lunar-rospy, ros-lunar-trajectory-msgs
+Description: The pr2_tuck_arms_action package

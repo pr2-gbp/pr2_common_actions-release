@@ -1,0 +1,13 @@
+Source: ros-noetic-pr2-tilt-laser-interface
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-laser-geometry, ros-noetic-message-generation, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-pr2-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Homepage: http://ros.org/wiki/pr2_tilt_laser
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-tilt-laser-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-laser-geometry, ros-noetic-message-runtime, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-pr2-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Description: Provides a set of tools/actions for manipulating the pr2's tilting laser.
+ Simplifies previously complex tasks, such as fetching a single sweep, given a set of desired parameters for both the laser driver and tilting platform.

@@ -1,0 +1,12 @@
+Source: ros-noetic-joint-trajectory-generator
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), liborocos-kdl-dev, ros-noetic-actionlib, ros-noetic-angles, ros-noetic-catkin, ros-noetic-joint-trajectory-action, ros-noetic-pr2-controllers-msgs, ros-noetic-roscpp, ros-noetic-urdf
+Homepage: http://ros.org/wiki/joint_trajectory_generator
+Standards-Version: 3.9.2
+
+Package: ros-noetic-joint-trajectory-generator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liborocos-kdl1.4, ros-noetic-actionlib, ros-noetic-angles, ros-noetic-joint-trajectory-action, ros-noetic-pr2-controllers-msgs, ros-noetic-roscpp, ros-noetic-urdf
+Description: joint_trajectory_generator action takes in a trajectory specified by a number of joint positions, and it generates a new smooth trajectory through these joint positions.

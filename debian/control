@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-common-action-msgs
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-sensor-msgs
+Homepage: http://wiki.ros.org/pr2_common_action_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-common-action-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-sensor-msgs
+Description: The pr2_common_action_msgs package

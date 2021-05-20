@@ -1,0 +1,12 @@
+Source: ros-noetic-joint-trajectory-action-tools
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-joint-trajectory-action, ros-noetic-pr2-controllers-msgs, ros-noetic-roslib, ros-noetic-rospy, ros-noetic-trajectory-msgs
+Homepage: http://ros.org/wiki/joint_trajectory_action_tools
+Standards-Version: 3.9.2
+
+Package: ros-noetic-joint-trajectory-action-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-joint-trajectory-action, ros-noetic-pr2-controllers-msgs, ros-noetic-roslib, ros-noetic-rospy, ros-noetic-trajectory-msgs
+Description: joint_trajectory_action_tools

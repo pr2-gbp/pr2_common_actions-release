@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-tuck-arms-action
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-pr2-common-action-msgs, ros-noetic-pr2-controllers-msgs, ros-noetic-rospy, ros-noetic-trajectory-msgs
+Homepage: http://wiki.ros.org/pr2_tuck_arms_action
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-tuck-arms-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-pr2-common-action-msgs, ros-noetic-pr2-controllers-msgs, ros-noetic-rospy, ros-noetic-trajectory-msgs
+Description: The pr2_tuck_arms_action package

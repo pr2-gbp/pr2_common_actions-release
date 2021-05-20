@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-common-actions
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/pr2_common_actions
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-common-actions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-joint-trajectory-action-tools, ros-noetic-joint-trajectory-generator, ros-noetic-pr2-arm-move-ik, ros-noetic-pr2-common-action-msgs, ros-noetic-pr2-tilt-laser-interface, ros-noetic-pr2-tuck-arms-action
+Description: Various actions which help in moving the arms of the PR2 or getting data from its tilting laser.

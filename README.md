@@ -1,3 +1,33 @@
+## pr2_common_actions (noetic) - 0.0.12-1
+
+The packages in the `pr2_common_actions` repository were released into the `noetic` distro by running `/usr/bin/bloom-release pr2_common_actions --rosdistro noetic --track noetic` on `Thu, 20 May 2021 05:59:25 -0000`
+
+These packages were released:
+- `joint_trajectory_action_tools`
+- `joint_trajectory_generator`
+- `pr2_arm_move_ik`
+- `pr2_common_action_msgs`
+- `pr2_common_actions`
+- `pr2_tilt_laser_interface`
+- `pr2_tuck_arms_action`
+
+Version of package(s) in repository `pr2_common_actions`:
+
+- upstream repository: https://github.com/PR2/pr2_common_actions.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.12-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## pr2_common_actions (melodic) - 0.0.11-0
 
 The packages in the `pr2_common_actions` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --edit -y pr2_common_actions --rosdistro melodic --track melodic` on `Sat, 22 Sep 2018 02:53:30 -0000`
